@@ -1,0 +1,15 @@
+cd project
+conda activate mapf
+python run.py --agents p1 p2 --map empty --goals 5_5 1_5 --vis
+python run.py --agents p1 p2 --map small --goals 5_5 1_5 --vis
+python run.py --agents p1 p2 --map medium --goals 4_12 5_12 --vis
+1 1
+5 1
+
+
+
+self.open_set = set()
+self.closed_set = set()
+
+sol1 = [(5, 1), (5, 2), (5, 3), (5, 4), (5, 5)]
+sol2 = [(1, 1), (1, 2), (1, 3), (1, 4), (1, 5)]
